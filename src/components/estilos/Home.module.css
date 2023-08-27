@@ -1,0 +1,48 @@
+.container {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .anime_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .anime_card {
+    background-color: #262626;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #171515;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+.card_title{
+    height: 80px;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 1em;
+    color: #ffffff;
+    font-size: 16px
+    
+}
+
+/* Estilos para a imagem */
+.card_image {
+  width: 100%; /* Defina a largura da imagem como 100% */
+  height: 100%; /* A altura será ajustada automaticamente para manter a proporção */
+  object-fit: cover; /* Para preencher o espaço da imagem e manter a proporção */
+}
+
+  .message{
+    color: #ffff;
+    font-size: 36px;
+  }
+  

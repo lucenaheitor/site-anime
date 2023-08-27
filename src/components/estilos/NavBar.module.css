@@ -1,0 +1,34 @@
+/* NavBar.module.css */
+
+.NavBar_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .logo {
+    width: 200px;
+    
+  }
+  
+  .input_container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Alinha os itens no lado direito */
+  }
+  
+  .procurar_anime {
+    margin-left: 10px; /* Espaçamento entre o input e o botão */
+    padding: 5px;
+    background: white;
+  }
+  
+  .botao_anime {
+    background: #fff;
+    color: black;
+    border-radius: 20px;
+    padding: 5px 20px;
+  }
